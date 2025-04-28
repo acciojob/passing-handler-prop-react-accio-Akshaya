@@ -12,6 +12,7 @@ const Selection = (props) => {
            className="fix-box"
            style={BgStyle}
            onClick={handleClick}
+           data-testid="selection-box"
         >
          Selection
          
